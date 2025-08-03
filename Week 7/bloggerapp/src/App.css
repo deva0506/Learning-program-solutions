@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 40px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border-left: 4px solid green;
+}
+
+.column:first-child {
+  border-left: none; /* Remove left border for first column */
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+ul,
+p {
+  margin: 5px 0;
+}

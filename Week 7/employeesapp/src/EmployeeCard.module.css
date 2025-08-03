@@ -1,0 +1,21 @@
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.Card {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap; /* Wrap to next row if too many cards */
+  gap: 20px; /* Space between cards */
+  margin-top: 20px;
+}
